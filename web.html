@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        #un {
+            position: absolute;
+            left: 80px;
+        }
+        #pw {
+            position: absolute;
+            left: 80px;
+        }
+        #info {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h2>Log In</h2>
+    <form method='post' action='website.php'>
+        <div>Username: <input id="un" type='text' name='username'/></div>
+        <br>
+        <div>Password: <input id="pw"  type="password" input='text' name='password'/></div>
+        <br>
+        <input type='submit' name='submitButton' />
+    </form>
+    <br>
+    <div id="info" >*The Uername is "Username" and the Password is "Password" - Nothing else will work.</div>
+</body>
+</html>
+
